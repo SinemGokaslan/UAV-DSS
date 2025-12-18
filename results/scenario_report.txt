@@ -1,0 +1,169 @@
+======================================================================
+IHA MISSION PRIORITIZATION - SCENARIO TEST REPORT
+======================================================================
+
+
+======================================================================
+SCENARIO: Default
+======================================================================
+
+Criteria Weights:
+  • urgency_score: 0.4521
+  • threat_level: 0.2645
+  • civilian_density: 0.0937
+  • weather_suitability: 0.0780
+  • uav_availability: 0.1117
+
+Processing Time: 1.39 seconds
+
+Statistics:
+  • Total missions: 1000
+  • Average TOPSIS score: 0.4747
+  • Standard deviation: 0.1757
+  • Min score: 0.0687
+  • Max score: 0.9379
+
+Top 10 Missions:
+mission_id        mission_type urgency_level  topsis_score  rank
+      M368   Search and Rescue      Critical      0.937858     1
+     M6551      Reconnaissance      Critical      0.937192     2
+     M6809      Reconnaissance      Critical      0.935773     3
+     M8021      Reconnaissance      Critical      0.930045     4
+     M4514      Reconnaissance      Critical      0.905953     5
+     M3598   Search and Rescue      Critical      0.905817     6
+     M1454       Border Patrol      Critical      0.887883     7
+     M2190        Surveillance      Critical      0.884509     8
+     M2824        Surveillance      Critical      0.882405     9
+     M4930 Disaster Assessment      Critical      0.879925    10
+
+======================================================================
+SCENARIO: Urgency Focused
+======================================================================
+
+Criteria Weights:
+  • urgency_score: 0.6000
+  • threat_level: 0.2000
+  • civilian_density: 0.1000
+  • weather_suitability: 0.0500
+  • uav_availability: 0.0500
+
+Processing Time: 1.45 seconds
+
+Statistics:
+  • Total missions: 1000
+  • Average TOPSIS score: 0.4685
+  • Standard deviation: 0.2087
+  • Min score: 0.0677
+  • Max score: 0.9459
+
+Top 10 Missions:
+mission_id        mission_type urgency_level  topsis_score  rank
+     M6551      Reconnaissance      Critical      0.945855     1
+      M368   Search and Rescue      Critical      0.941780     2
+     M8021      Reconnaissance      Critical      0.939431     3
+     M4514      Reconnaissance      Critical      0.937016     4
+     M6809      Reconnaissance      Critical      0.929438     5
+     M3598   Search and Rescue      Critical      0.913300     6
+     M7437 Disaster Assessment      Critical      0.908983     7
+     M2824        Surveillance      Critical      0.904306     8
+     M2190        Surveillance      Critical      0.896699     9
+     M1454       Border Patrol      Critical      0.893654    10
+
+======================================================================
+SCENARIO: Threat Focused
+======================================================================
+
+Criteria Weights:
+  • urgency_score: 0.2500
+  • threat_level: 0.5000
+  • civilian_density: 0.1500
+  • weather_suitability: 0.0500
+  • uav_availability: 0.0500
+
+Processing Time: 1.52 seconds
+
+Statistics:
+  • Total missions: 1000
+  • Average TOPSIS score: 0.4874
+  • Standard deviation: 0.1943
+  • Min score: 0.0386
+  • Max score: 0.9646
+
+Top 10 Missions:
+mission_id        mission_type urgency_level  topsis_score  rank
+     M6551      Reconnaissance      Critical      0.964582     1
+     M6809      Reconnaissance      Critical      0.963576     2
+      M368   Search and Rescue      Critical      0.952981     3
+     M8021      Reconnaissance      Critical      0.936126     4
+     M3598   Search and Rescue      Critical      0.901415     5
+     M4930 Disaster Assessment      Critical      0.887255     6
+     M4514      Reconnaissance      Critical      0.868734     7
+     M1454       Border Patrol      Critical      0.863393     8
+     M8675       Border Patrol          High      0.854550     9
+     M2190        Surveillance      Critical      0.850633    10
+
+======================================================================
+SCENARIO: Civilian Safety Focused
+======================================================================
+
+Criteria Weights:
+  • urgency_score: 0.3000
+  • threat_level: 0.2000
+  • civilian_density: 0.3500
+  • weather_suitability: 0.1000
+  • uav_availability: 0.0500
+
+Processing Time: 1.29 seconds
+
+Statistics:
+  • Total missions: 1000
+  • Average TOPSIS score: 0.4876
+  • Standard deviation: 0.1638
+  • Min score: 0.0731
+  • Max score: 0.9531
+
+Top 10 Missions:
+mission_id        mission_type urgency_level  topsis_score  rank
+     M6809      Reconnaissance      Critical      0.953100     1
+     M6551      Reconnaissance      Critical      0.952201     2
+      M368   Search and Rescue      Critical      0.940176     3
+     M4930 Disaster Assessment      Critical      0.911710     4
+     M4399 Disaster Assessment      Critical      0.879254     5
+     M7501      Reconnaissance      Critical      0.862777     6
+     M8021      Reconnaissance      Critical      0.851293     7
+     M3016 Disaster Assessment      Critical      0.845582     8
+     M7059        Surveillance      Critical      0.842109     9
+     M8279   Search and Rescue      Critical      0.841392    10
+
+======================================================================
+SCENARIO: Balanced
+======================================================================
+
+Criteria Weights:
+  • urgency_score: 0.2000
+  • threat_level: 0.2000
+  • civilian_density: 0.2000
+  • weather_suitability: 0.2000
+  • uav_availability: 0.2000
+
+Processing Time: 1.41 seconds
+
+Statistics:
+  • Total missions: 1000
+  • Average TOPSIS score: 0.4910
+  • Standard deviation: 0.1347
+  • Min score: 0.1202
+  • Max score: 0.9441
+
+Top 10 Missions:
+mission_id        mission_type urgency_level  topsis_score  rank
+      M368   Search and Rescue      Critical      0.944085     1
+     M6809      Reconnaissance      Critical      0.917885     2
+     M4930 Disaster Assessment      Critical      0.898314     3
+     M8021      Reconnaissance      Critical      0.870021     4
+     M6551      Reconnaissance      Critical      0.817512     5
+     M4514      Reconnaissance      Critical      0.816093     6
+     M7501      Reconnaissance      Critical      0.811030     7
+     M3598   Search and Rescue      Critical      0.805344     8
+     M6624   Search and Rescue      Critical      0.799466     9
+     M7059        Surveillance      Critical      0.796437    10
