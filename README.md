@@ -1,0 +1,13 @@
+# İHA Görev Önceliklendirme Karar Destek Sistemi
+
+AHP ve TOPSIS metodolojileri ile İHA görev önceliklendirme.
+
+## Çalıştırma
+```bash
+pip install -r requirements.txt
+python src/data_collection.py
+python src/decision_engine.py
+streamlit run src/app.py
+```
+
+Sinem Gökaslan 
